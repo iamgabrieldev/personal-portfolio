@@ -3,7 +3,7 @@ import 'styled-components'
 import { dark } from '../styles/themes/dark'
 
 // CRIANDO TIPAGEM DO NOSSO TEMA DE FORMA DINÂMICA
-type ThemeType = typeof lightTheme
+type ThemeType = typeof dark
 
 // SOBRESCREVENDO O MODULO DE TIPAGENS DEFAULT DO STYLE-COMPONENTS
 
