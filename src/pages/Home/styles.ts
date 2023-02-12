@@ -6,6 +6,8 @@ export const Styled = styled.main`
   main {
     section {
       h2 {
+        display: inline;
+        width: 80px;
         font-size: 1.5rem;
         padding: 0rem 0rem 0.5rem 0rem;
         margin-right: 17rem;
@@ -15,6 +17,7 @@ export const Styled = styled.main`
   }
 
   .intro {
+    padding: 0rem 0rem 4rem 0rem;
     margin: 0rem 16rem;
     border-bottom: 1px solid #fff;
     justify-content: center;
