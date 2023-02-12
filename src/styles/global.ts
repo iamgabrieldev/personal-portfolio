@@ -18,8 +18,8 @@ export const GlobalStyle = createGlobalStyle`
     }
 
     font-size: 16px;
-    background: ${({ theme }) => theme.background};
-    color: ${({ theme }) => theme.white}
+    background: #222;
+    color: #fff;
   }
 
   button {
