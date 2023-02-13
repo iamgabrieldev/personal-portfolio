@@ -5,12 +5,18 @@ export const Styled = styled.main`
 
   main {
     section {
+      margin: 2rem 0rem;
       h2 {
-        display: inline;
+        @media (max-width: 720px) {
+          margin: 0 auto 0 0;
+        }
+
+        display: block;
         width: 80px;
         font-size: 1.5rem;
         padding: 0rem 0rem 0.5rem 0rem;
-        margin-right: 17rem;
+        margin: 0 auto;
+        margin-left: 16vw;
         border-bottom: 4px solid #573ffd;
       }
     }
